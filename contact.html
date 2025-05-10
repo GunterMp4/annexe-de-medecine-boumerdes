@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact - Annexe de Médecine Boumerdes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="ressources.html">Ressources</a></li>
+        <li><a href="examens.html">Examens</a></li>
+        <li><a href="emplois.html">Emplois du Temps</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Contact</h1>
+      <p>Vous avez des questions ou besoin d'aide ? Envoyez-nous un message !</p>
+
+      <!-- Contact Form -->
+      <form action="submit_form.php" method="POST">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required />
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+
+      <!-- Facebook link -->
+      <p>Suivez-nous sur Facebook pour plus de mises à jour :</p>
+      <a href="https://www.facebook.com/p/Annexe-de-M%C3%A9decine-Boumerdes-61551086103394/?locale=fr_FR" target="_blank">Annexe de Médecine Boumerdes sur Facebook</a>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Promo Médecine Boumerdes</p>
+    </footer>
+
+  </body>
+</html>
